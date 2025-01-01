@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.container {
+    background-color: #fff;
+    height: 610px;
+    width: 450px;
+    position: relative;
+    margin: 0 auto;
+    top: 11em;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 40px 40px rgb(82 31 106);
+}
+
+body{
+    font-family: "Roboto", serif;
+    background-color: #7a4397;
+}
+
+.signup-heading {
+    color: #6f448c;
+    text-align: center;
+}
+
+.same-input {
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 7px 9px;
+    border: 3px solid black;
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.signup_button {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.purple-button {
+    background-color: #7a4299;
+    color: black;
+    width: 450px;
+    height: 65px;
+    border-radius: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 3px solid black;
+    margin-top: 2em;
+    box-shadow: 7px 9px;
+
+}
+
+.para-and-anchortag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: 18px;
+    gap: 9px;
+}
+
+a {
+    font-weight: 900;
+    color: #481f65;
+}
